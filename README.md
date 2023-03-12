@@ -20,7 +20,7 @@ In this paper, we propose a Partial Siamese and Bi-codec Dehazing Network (PSBDN
   <h3 align="center">Partial Siamese Dehazing Framework</h3>
   <p align="center">
   <a href="https://github.com/thislzm/PSBDN/">
-    <img src="images/psdf.png" alt="Logo" width="80" height="80">
+    <img src="images/bmifm.png" alt="Logo" width="80" height="80">
   </a>
   </p>
   <h3 align="center">Bi-codec Multi-scale Information Fusion Module</h3>
