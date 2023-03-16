@@ -92,13 +92,13 @@ In this paper, we propose a Partial Siamese and Bi-codec Dehazing Network (PSBDN
 ### Train
 
 ```shell
-python train.py --data_dir data -train_batch_size 8 --model_save_dir train_result
+python train.py --data_dir data -train_batch_size 8 --gpus 0
 ```
 
 ### Test
 
  ```shell
-python test.py --model_save_dir results
+python test.py --gpus 0
  ```
 
 ### Clone the repo
