@@ -44,7 +44,7 @@ In this paper, we propose a Partial Siamese and Bi-codec Dehazing Network (PSBDN
 ## Contents
 
 - [Dependencies](#dependences)
-- [filetree](#filetree)
+- [Filetree](#filetree)
 - [Train](#train)
 - [Test](#test)
 - [Clone the repo](#clone-the-repo)
@@ -92,13 +92,13 @@ In this paper, we propose a Partial Siamese and Bi-codec Dehazing Network (PSBDN
 ### Train
 
 ```shell
-python train.py --data_dir data -train_batch_size 8 --gpus 0
+python train.py -train_batch_size 4 --gpus 0 --type 5
 ```
 
 ### Test
 
  ```shell
-python test.py --gpus 0
+python test.py --gpus 0 --type 5
  ```
 
 ### Clone the repo
