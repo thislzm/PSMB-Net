@@ -93,9 +93,9 @@ In this paper, we propose a Partial Siamese and Bi-codec Dehazing Network (PSBDN
 
 ### Pretrained Weights and Dataset
 
-Download our [model weights](https://pan.baidu.com/s/1AnR55jZ1cIKU0FUslbus_w?pwd=lzms).
+Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/1AnR55jZ1cIKU0FUslbus_w?pwd=lzms
 
-Download our [test datasets](https://pan.baidu.com/s/1I0YeSDzkC8qiJx9MnbjP_Q?pwd=lzms).
+Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1I0YeSDzkC8qiJx9MnbjP_Q?pwd=lzms
 
 
 ### Train
