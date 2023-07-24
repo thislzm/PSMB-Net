@@ -1,5 +1,5 @@
 
-# PSBDN
+# PSMB-Net
 Recently, the U-Shaped networks has been widely explored in remote sensing image dehazing and obtained promising performance. However, most of the existing dehazing methods based on U-Shaped framework lack the reconstruction constraints of haze areas, which is particularly important to restore haze-free images. Moreover, their encoding and decoding layers cannot effectively fuse multi-scale features, resulting in deviations in the color and texture of the dehazing image. To address these issues, in this paper, we propose a Partial Siamese with Multiscale Bi-codec Dehazing Network (PSMB-Net) which is mainly composed of a Partial Siamese Framework (PSF) and a Multiscale Bi-codec Information Fusion (MBIF) module. Specifically, the PSF is proposed to create dehazing prior information to guide the network to build Siamese constraints and achieve improved dehazing results. Furthermore, we design a MBIF module which can enhance feature extraction, and the multi-scale information is used to improve the reconstruction ability of the network for the color and texture of the dehazing image. Experimental results on challenging benchmark datasets demonstrate the superiority of our PSMB-Net over state-of-the-art image dehazing methods.
 <!-- PROJECT SHIELDS -->
 
@@ -13,13 +13,13 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
 <br />
 
 <p align="center">
-  <a href="https://github.com/thislzm/PSBDN/">
-    <img src="images/psdf.png" alt="Logo" width="800" height="500">
+  <a href="https://github.com/thislzm/PSMB-Net/">
+    <img src="images/psf.png" alt="Logo" width="800" height="500">
   </a>
   <h3 align="center">Partial Siamese Dehazing Framework</h3>
   <p align="center">
-  <a href="https://github.com/thislzm/PSBDN/">
-    <img src="images/bmifm.png" alt="Logo" width="800" height="640">
+  <a href="https://github.com/thislzm/PSMB-Net/">
+    <img src="images/mbif.png" alt="Logo" width="800" height="640">
   </a>
   </p>
   <h3 align="center">Bi-codec Multi-scale Information Fusion module</h3>
@@ -27,19 +27,17 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
   <p align="center">
     Partial Siamese Network with Bi-codec Multi-scale Information Fusion Module for Single Image Dehazing
     <br />
-    <a href="https://github.com/thislzm/PSBDN"><strong>Exploring the documentation for PSBDN »</strong></a>
+    <a href="https://github.com/thislzm/PSMB-Net"><strong>Exploring the documentation for PSMB-Net »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/thislzm/PSBDN">Check Demo</a>
+    <a href="https://github.com/thislzm/PSMB-Net">Check Demo</a>
     ·
-    <a href="https://github.com/thislzm/PSBDN/issues">Report Bug</a>
+    <a href="https://github.com/thislzm/PSMB-Net/issues">Report Bug</a>
     ·
-    <a href="https://github.com/thislzm/PSBDN/issues">Pull Request</a>
+    <a href="https://github.com/thislzm/PSMB-Net/issues">Pull Request</a>
   </p>
 
 </p>
-
- 
 
 ## Contents
 
@@ -50,9 +48,13 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
 - [Test](#test)
 - [Clone the repo](#clone-the-repo)
 - [Qualitative Results](#qualitative-results)
+  - [Results on HRSD-DHID remote sensing Dehazing Challenge testing images:](#results-on-hrsd-dhid-remote-sensing-dehazing-challenge-testing-images)
+  - [Results on HRSD-LHID remote sensing Dehazing Challenge testing images:](#results-on-hrsd-lhid-remote-sensing-dehazing-challenge-testing-images)
+  - [Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thin-remote-sensing-dehazing-challenge-testing-images)
+  - [Results on Statehaze1k-Moderate remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-moderate-remote-sensing-dehazing-challenge-testing-images)
+  - [Results on Statehaze1k-Thick remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thick-remote-sensing-dehazing-challenge-testing-images)
   - [Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images:](#results-on-ntire-2021-nonhomogeneous-dehazing-challenge-testing-images)
   - [Results on RESIDE-Outdoor Dehazing Challenge testing images:](#results-on-reside-outdoor-dehazing-challenge-testing-images)
-  - [Results on Statehaze1k Dehazing Challenge testing images:](#results-on-statehaze1k-dehazing-challenge-testing-images)
 - [Copyright](#copyright)
 - [Thanks](#thanks)
 
@@ -67,7 +69,7 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
 
 ```
 ├── README.md
-├── /PSBDN/
+├── /PSMB-Net/
 |  ├── train.py
 |  ├── test.py
 |  ├── Model.py
@@ -112,10 +114,35 @@ python test.py --gpus 0 --type 5
 ### Clone the repo
 
 ```sh
-git clone https://github.com/thislzm/PSBDN.git
+git clone https://github.com/thislzm/PSMB-Net.git
 ```
 
 ### Qualitative Results
+
+#### Results on HRSD-DHID remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/DHID.png" style="display: inline-block;" />
+</div>
+
+#### Results on HRSD-LHID remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/LHID.png" style="display: inline-block;" />
+</div>
+
+#### Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/thin.png" style="display: inline-block;" />
+</div>
+
+#### Results on Statehaze1k-Moderate remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/moderate.png" style="display: inline-block;" />
+</div>
+
+#### Results on Statehaze1k-Thick remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/thick.png" style="display: inline-block;" />
+</div>
 
 #### Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images
 <div style="text-align: center">
@@ -127,15 +154,12 @@ git clone https://github.com/thislzm/PSBDN.git
 <img alt="" src="/images/reside.png" style="display: inline-block;" />
 </div>
 
-#### Results on Statehaze1k Dehazing Challenge testing images
-<div style="text-align: center">
-<img alt="" src="/images/haze1k.png" style="display: inline-block;" />
-</div>
+
 
 
 ### Copyright
 
-The project has been licensed by MIT. Please refer to for details. [LICENSE.txt](https://github.com/thislzm/PSBDN/LICENSE.txt)
+The project has been licensed by MIT. Please refer to for details. [LICENSE.txt](https://github.com/thislzm/PSMB-Net/LICENSE.txt)
 
 ### Thanks
 
@@ -147,17 +171,17 @@ The project has been licensed by MIT. Please refer to for details. [LICENSE.txt]
 
 
 <!-- links -->
-[your-project-path]:thislzm/PSBDN
-[contributors-shield]: https://img.shields.io/github/contributors/thislzm/PSBDN.svg?style=flat-square
-[contributors-url]: https://github.com/thislzm/PSBDN/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/thislzm/PSBDN.svg?style=flat-square
-[forks-url]: https://github.com/thislzm/PSBDN/network/members
-[stars-shield]: https://img.shields.io/github/stars/thislzm/PSBDN.svg?style=flat-square
-[stars-url]: https://github.com/thislzm/PSBDN/stargazers
-[issues-shield]: https://img.shields.io/github/issues/thislzm/PSBDN.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/thislzm/PSBDN.svg
-[license-shield]: https://img.shields.io/github/license/thislzm/PSBDN.svg?style=flat-square
-[license-url]: https://github.com/thislzm/PSBDN/blob/master/LICENSE.txt
+[your-project-path]:thislzm/PSMB-Net
+[contributors-shield]: https://img.shields.io/github/contributors/thislzm/PSMB-Net.svg?style=flat-square
+[contributors-url]: https://github.com/thislzm/PSMB-Net/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/thislzm/PSMB-Net.svg?style=flat-square
+[forks-url]: https://github.com/thislzm/PSMB-Net/network/members
+[stars-shield]: https://img.shields.io/github/stars/thislzm/PSMB-Net.svg?style=flat-square
+[stars-url]: https://github.com/thislzm/PSMB-Net/stargazers
+[issues-shield]: https://img.shields.io/github/issues/thislzm/PSMB-Net.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/thislzm/PSMB-Net.svg
+[license-shield]: https://img.shields.io/github/license/thislzm/PSMB-Net.svg?style=flat-square
+[license-url]: https://github.com/thislzm/PSMB-Net/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
 
