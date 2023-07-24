@@ -94,9 +94,9 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
 
 ### Pretrained Weights and Dataset
 
-Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/1AnR55jZ1cIKU0FUslbus_w?pwd=lzms
+Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/1dePHGG4MYvyuLW5rZ0D8VA?pwd=lzms
 
-Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1I0YeSDzkC8qiJx9MnbjP_Q?pwd=lzms
+Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1HK1oy4SjZ99N-Dh-8_s0hA?pwd=lzms
 
 
 ### Train
