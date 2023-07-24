@@ -25,7 +25,7 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
   <h3 align="center">Multiscale Bi-codec Information Fusion module</h3>
 
   <p align="center">
-    Partial Siamese Network with Bi-codec Multi-scale Information Fusion Module for Single Image Dehazing
+    Partial Siamese Networks with Multiscale Bi-codec Information Fusion Module for Remote Sensing Single Image Dehazing
     <br />
     <a href="https://github.com/thislzm/PSMB-Net"><strong>Exploring the documentation for PSMB-Net »</strong></a>
     <br />
