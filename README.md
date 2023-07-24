@@ -16,13 +16,13 @@ Recently, the U-Shaped networks has been widely explored in remote sensing image
   <a href="https://github.com/thislzm/PSMB-Net/">
     <img src="images/psf.png" alt="Logo" width="800" height="500">
   </a>
-  <h3 align="center">Partial Siamese Dehazing Framework</h3>
+  <h3 align="center">Partial Siamese Framework</h3>
   <p align="center">
   <a href="https://github.com/thislzm/PSMB-Net/">
-    <img src="images/mbif.png" alt="Logo" width="800" height="640">
+    <img src="images/mbif.png" alt="Logo" width="1000" height="640">
   </a>
   </p>
-  <h3 align="center">Bi-codec Multi-scale Information Fusion module</h3>
+  <h3 align="center">Multiscale Bi-codec Information Fusion module</h3>
 
   <p align="center">
     Partial Siamese Network with Bi-codec Multi-scale Information Fusion Module for Single Image Dehazing
