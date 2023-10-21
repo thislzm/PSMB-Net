@@ -1,5 +1,7 @@
 
 # PSMB-Net
+This work is available at TGRS2023. Official Pytorch based implementation.
+
 Recently, the U-Shaped networks has been widely explored in remote sensing image dehazing and obtained promising performance. However, most of the existing dehazing methods based on U-Shaped framework lack the reconstruction constraints of haze areas, which is particularly important to restore haze-free images. Moreover, their encoding and decoding layers cannot effectively fuse multi-scale features, resulting in deviations in the color and texture of the dehazing image. To address these issues, in this paper, we propose a Partial Siamese with Multiscale Bi-codec Dehazing Network (PSMB-Net) which is mainly composed of a Partial Siamese Framework (PSF) and a Multiscale Bi-codec Information Fusion (MBIF) module. Specifically, the PSF is proposed to create dehazing prior information to guide the network to build Siamese constraints and achieve improved dehazing results. Furthermore, we design a MBIF module which can enhance feature extraction, and the multi-scale information is used to improve the reconstruction ability of the network for the color and texture of the dehazing image. Experimental results on challenging benchmark datasets demonstrate the superiority of our PSMB-Net over state-of-the-art image dehazing methods.
 <!-- PROJECT SHIELDS -->
 
